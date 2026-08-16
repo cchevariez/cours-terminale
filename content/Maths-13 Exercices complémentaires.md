@@ -50,8 +50,8 @@ tags:
 **Correction exercice 2 :**
 
 1. Le chiffre d'affaires forme une suite géométrique car chaque mois il est multiplié par 1,03. $u_n = u_1 \times q^{n-1}$ avec $u_1 = 80\,000$ et $q = 1,03$, donc $u_n = 80\,000 \times (1,03)^{n-1}$.
-2. Pour calculer le chiffre d'affaires de décembre 2024 (mois $n = 12$) : $u_{12} = 80\,000 \times (1,03)^{11} = 110\,720€$.
-3. Pour calculer le chiffre d'affaires total de l'année 2024 : $S_{12} = u_1 \times \dfrac{1-q^{12}}{1-q} = 80\,000 \times \dfrac{1-(1,03)^{12}}{1-1,03} = 1\,136\,000€$.
+2. Pour calculer le chiffre d'affaires de décembre 2024 (mois $n = 12$) : $u_{12} = 80\,000 \times (1,03)^{11} = 110\,720\,\text{€}$.
+3. Pour calculer le chiffre d'affaires total de l'année 2024 : $S_{12} = u_1 \times \dfrac{1-q^{12}}{1-q} = 80\,000 \times \dfrac{1-(1,03)^{12}}{1-1,03} = 1\,136\,000\,\text{€}$.
 
 **Correction exercice 3 :**
 
@@ -62,8 +62,8 @@ tags:
 
 **Correction exercice 4 :**
 
-1. Les trois premiers versements : $u_1 = 200€$, $u_2 = 200 \times 0,9 = 180€$, $u_3 = 180 \times 0,9 = 162€$.
+1. Les trois premiers versements : $u_1 = 200\,\text{€}$, $u_2 = 200 \times 0,9 = 180\,\text{€}$, $u_3 = 180 \times 0,9 = 162\,\text{€}$.
 2. Le quotient $\dfrac{u_{n+1}}{u_n} = 0,9$ est constant. La suite $(u_n)$ est géométrique de raison $q = 0,9$.
 3. $u_n = u_1 \times q^{n-1} = 200 \times (0,9)^{n-1}$
-4. Le 6ème versement : $u_6 = 200 \times (0,9)^5 = 200 \times 0,590 = 118€$.
-5. Somme des 10 premiers versements : $S_{10} = u_1 \times \dfrac{1-q^{10}}{1-q} = 200 \times \dfrac{1-(0,9)^{10}}{1-0,9} = 200 \times \dfrac{1-0,349}{0,1} = 200 \times 6,51 = 1\,302€$. Le client aura payé 1 302 € sur 10 versements, ce qui est supérieur au prix initial de 800 €.
+4. Le 6ème versement : $u_6 = 200 \times (0,9)^5 = 200 \times 0,590 = 118\,\text{€}$.
+5. Somme des 10 premiers versements : $S_{10} = u_1 \times \dfrac{1-q^{10}}{1-q} = 200 \times \dfrac{1-(0,9)^{10}}{1-0,9} = 200 \times \dfrac{1-0,349}{0,1} = 200 \times 6,51 = 1\,302\,\text{€}$. Le client aura payé 1 302 € sur 10 versements, ce qui est supérieur au prix initial de 800 €.
