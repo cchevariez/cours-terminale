@@ -12,7 +12,7 @@ tags:
 |---|---|
 | **S'approprier** | Comprendre la problématique liée au problème. |
 | **Analyser / Raisonner** | À partir de l'énoncé, identifier la nature d'une suite et ses propriétés.<br>Émettre une hypothèse raisonnable. |
-| **Réaliser** | Calculer un terme d'une suite arithmétique et géométrique.<br>Réaliser la somme d'une suite arithmétique et géométrique. |
+| **Réaliser** | Calculer un terme d'une suite géométrique.<br>Réaliser la somme d'une suite géométrique. |
 | **Valider** | Valider une hypothèse en utilisant les propriétés des suites. |
 | **Communiquer** | Communiquer les résultats trouvés en utilisant le vocabulaire adéquat. |
 
@@ -30,7 +30,7 @@ tags:
 > [!travail] Travail
 > Dans un ordinateur ou un téléphone, les calculs sont effectués par un ou plusieurs processeurs. La puissance est directement proportionnelle au nombre de transistors qui le compose. En 1965, Gordon Moore (co-fondateur d'Intel), a prédit que la puissance des processeurs doublerait tous les deux ans. Cette prédiction s'est révélée exacte et a été appelée la loi de Moore.
 >
-> ![[cpu.jpg]]
+> ![[cpu.jpg|400]]
 >
 > En 2015, afin de protéger ses données, une entreprise crypte ces dernières. Pour casser le cryptage, il faut un ordinateur possédant plus de 5000 milliards de transistors. En 2015, les processeurs possédaient 8 milliards de transistors.
 >
@@ -65,15 +65,17 @@ tags:
 > print("nb transistors ", nb_transistor_courant)
 > ```
 >
-> [Lien vers Google Colab](https://colab.research.google.com/drive/1jg2a-lqFjh_Ga7qD2jBgbBuD8VQSgyru?usp=sharing)
+> Tester en ligne : [console.basthon.fr](https://console.basthon.fr/?script=eNqVj0EKwjAQRfc5xdBurLqIQkFEb-AdSlpHOhCmJUnx-iYlVQlRNGSTmf__-ymF4LZxRrEl6wbTEJMjpeEMB6GYEZtruKMyzs_2clcnho50q9HvaimlEGUa2A2TfwRzFhQhURVyEuocee_JM_LBJ8gVOgrw57cqy3wN-9n1odJzsIm60RC7VXGjric0YLGbDFmEYps4qnc5t_Bi2yDOtqnmj0fPBWGhMKB1MOrJfgX-CXsAyUS28Q)
+>
+> <iframe src="https://console.basthon.fr/?script=eNqVj0EKwjAQRfc5xdBurLqIQkFEb-AdSlpHOhCmJUnx-iYlVQlRNGSTmf__-ymF4LZxRrEl6wbTEJMjpeEMB6GYEZtruKMyzs_2clcnho50q9HvaimlEGUa2A2TfwRzFhQhURVyEuocee_JM_LBJ8gVOgrw57cqy3wN-9n1odJzsIm60RC7VXGjric0YLGbDFmEYps4qnc5t_Bi2yDOtqnmj0fPBWGhMKB1MOrJfgX-CXsAyUS28Q" width="1000" height="500" style="border:1px solid #e4e4e4;border-radius:4px;" frameborder="0"></iframe>
 
 > [!exercice] Exercice 1
-> Une entreprise en 2024 a un CA d'affaire de 650 000 €. Les prévisions de cette entreprise donnent une augmentation du CA de 6% par an.
+> Une entreprise en 2026 a un CA d'affaire de 650 000 €. Les prévisions de cette entreprise donnent une augmentation du CA de 6% par an.
 >
 > Problématique : Suivant ce modèle de prévision, l'entreprise souhaiterait déterminer en quelle année son CA sera supérieur à 1,5 millions d'euros.
 >
-> 1. Déterminer le CA prévisionnel de l'entreprise en 2025 et en 2026.
-> 2. Reprendre le code précédent et l'adapter au problème actuel. Recopier le code construit ci-dessous.
+> 1. Déterminer le CA prévisionnel de l'entreprise en 2027 et en 2028.
+> 2. Reprendre le code précédent et l'adapter au problème actuel. Recopier le code construit.
 > 3. Répondre à la problématique.
 
 ## Définitions et propriétés
@@ -92,13 +94,19 @@ tags:
 > [!definition] Définition — Suite géométrique
 > Dans une suite géométrique, on passe d'un terme au suivant en multipliant toujours par le même nombre $q$ que l'on appelle raison.
 >
-> ![[schemageom.png]]
+> ![[schemageom.png|400]]
 
 > [!propriete] Propriété
 > Pour une suite géométrique $(u_n)$ de premier terme $u_1$ et de raison $q$ on a :
 > $$u_n = u_1 \times q^{(n-1)}$$
 
 > [!exercice] Exercice 2
+> Pour chacune des suites de nombres suivantes, déterminer s'il s'agit d'une suite géométrique. Si oui, préciser la raison $q$ ; si non, justifier pourquoi.
+> 1. $2 \ ; \ 6 \ ; \ 18 \ ; \ 54 \ ; \ 162$
+> 2. $4 \ ; \ 9 \ ; \ 14 \ ; \ 19 \ ; \ 24$
+> 3. $5 \ ; \ 10 \ ; \ 25 \ ; \ 40$
+
+> [!exercice] Exercice 3
 > On considère une suite géométrique de raison $1,15$ et de premier terme $u_1 = 4$.
 > 1. Déterminer la valeur de $u_{15}$.
 > 2. Déterminer la valeur de $u_{30}$.
@@ -107,7 +115,7 @@ tags:
 > [!travail] Travail
 > Réaliser le tableau suivant :
 >
-> ![[tableursuite.pdf]]
+> <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQjRdD0gN8soQLbQGhb7xkXZFy3GMaxKUhtlunTHHLurcmEBiJTBgJJQhHmvCPoBy-aGNZsaC1m6CrB/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false" width="1000" height="500" style="border:1px solid #e4e4e4;border-radius:4px;" frameborder="0"></iframe>
 >
 > Une vidéo coup de pouce pour la réalisation de ce tableau est disponible au besoin : [Vidéo — construire le tableau](https://youtu.be/it-xmev2LGE)
 >
@@ -128,26 +136,45 @@ tags:
 > La somme $S_n$ des $n$ premiers termes d'une suite géométrique de premier terme $v_1$ et de raison $q$ est donnée par la formule :
 > $$S_n=v_1 \times \dfrac{1-q^n}{1-q}$$
 
-> [!exercice] Exercice 3
+> [!exercice] Exercice 4
 > On considère une suite géométrique de raison $1,02$ et de premier terme $u_1=200$.
 > 1. Déterminer la somme des 50 premiers termes de $(u_n)$.
 
+> [!exercice] Exercice 5
+> Une entreprise artisanale a vendu 150 pièces lors de sa première année d'activité. Grâce au bouche-à-oreille, ses ventes augmentent de 25% chaque année.
+> 1. Justifier que le nombre de pièces vendues chaque année forme une suite géométrique et préciser sa raison.
+> 2. Déterminer le nombre total de pièces vendues au cours des 8 premières années d'activité.
+
 ## Analyser-Raisonner-Communiquer
 
-> [!exercice] Exercice 4
+> [!rituel] Rituel
+> Résoudre les équations produit nul suivantes :
+> 1. $(x-2)(3x+9)=0$
+> 2. $(2x+1)(4x-3)+(2x+1)(8x-6)=0$ (factoriser par facteur commun avant de résoudre)
+
+> [!correction] Correction
+> 1. Un produit de facteurs est nul si l'un au moins des facteurs est nul :
+>    $x-2=0$ ou $3x+9=0$
+>    $x=2$ ou $x=-3$
+> 2. On reconnaît le facteur commun $(2x+1)$ :
+>    $(2x+1)(4x-3)+(2x+1)(8x-6)=(2x+1)\big[(4x-3)+(8x-6)\big]=(2x+1)(12x-9)$
+>    $(2x+1)(12x-9)=0 \Rightarrow 2x+1=0$ ou $12x-9=0$
+>    $x=-\dfrac{1}{2}$ ou $x=\dfrac{3}{4}$
+
+> [!exercice] Exercice 6
 > Un objet coûte actuellement 200 euros. Le taux d'inflation moyen est de 2,2% par an. On suppose que l'inflation se maintiendra à ce taux annuel. On note $P_1$ le prix actuel et $P_n$ le prix de l'objet l'année $n$.
 > 1. Déterminer, en justifiant, la nature de la suite $(P_n)$.
 > 2. Déterminer le coût de l'objet l'année 5 et l'année 20.
 > 3. À l'aide du tableau réalisé dans le TP2, déterminer dans combien d'années le prix de l'article dépassera 300 euros.
 
 > [!travail] Travail
-> La vente de matériel informatique par internet affiche en France une croissance moyenne de 20% chaque année depuis 2015. En 2022 le chiffre d'affaires des ventes en ligne est de 2 milliards d'euros. La vente en magasin physique croît quant à elle de 4% par an et son CA est de 8 milliards d'euros.
+> La vente de matériel informatique par internet affiche en France une croissance moyenne de 20% chaque année depuis 2015. En 2025 le chiffre d'affaires des ventes en ligne est de 2 milliards d'euros. La vente en magasin physique croît quant à elle de 4% par an et son CA est de 8 milliards d'euros.
 >
 > **Problématique :** En quelle année le CA des ventes en ligne dépassera-t-il celui des ventes en magasin physique ?
 >
 > Dans votre partie valider, vous reprendrez le programme Python en page 8 et adapterez le code afin de répondre à votre problématique. [Vidéo coup de pouce pour le code](https://youtu.be/zxRllpIaqt8)
 
-> [!exercice] Exercice 5
+> [!exercice] Exercice 7
 > Un véhicule acheté neuf au prix de 18 300 € perd 12% de sa valeur par an. On note $P_1$ la valeur de la voiture la première année, $P_2$ sa valeur la deuxième année, etc.
 > 1. Déterminer les caractéristiques de cette suite $(P_n)$.
 > 2. Déterminer la valeur de la voiture au bout de 5 ans et de 10 ans d'utilisation.

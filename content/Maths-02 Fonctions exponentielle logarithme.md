@@ -38,7 +38,7 @@ tags:
 > [!activite] Activité
 > Voici une application GeoGebra permettant de visualiser la fonction $f(x)=q^x$ en fonction de différentes valeurs de $q$.
 >
-> ![[exp-g1.png]]
+> <iframe src="https://www.geogebra.org/classic/z5yr9xgd?embed" width="800" height="400" allowfullscreen style="border: 1px solid #e4e4e4;border-radius: 4px;" frameborder="0"></iframe>
 >
 > [Ouvrir l'application GeoGebra](https://www.geogebra.org/classic/z5yr9xgd)
 >
@@ -84,6 +84,9 @@ John Neper (1550-1617) est un mathématicien écossais. À son époque, l'astron
 > Résoudre les équations suivantes :
 > 1. $1,2^x=6$
 > 2. $1200\times1,02^x = 2000$
+
+
+> ![[resolution_equation_logarithme.mp4]]
 
 > [!exercice] Exercice 3
 > Vous placez un capital de 20 000 euros au taux annuel de 1,8%.
@@ -132,7 +135,6 @@ John Neper (1550-1617) est un mathématicien écossais. À son époque, l'astron
 > print("Objectif atteint pour x = ", x)
 > ```
 
-## Bilan
 
 > [!exercice] Exercice 4
 > 1. Quelles sont les deux propriétés fondamentales du logarithme ?
