@@ -23,7 +23,7 @@ tags:
 > [!definition] Définition — Dilution
 > Dans le cas d'une solution aqueuse, la dilution revient à ajouter de l'eau à la solution existante, afin que la nouvelle solution soit moins concentrée.
 >
-> ![[dilu1.png]]
+> ![[dilu1.png|300]]
 >
 > - On appelle solution mère la solution de base et on note $C_0$ et $V_0$ sa concentration molaire et son volume.
 > - On appelle solution fille la solution diluée obtenue et on note $C_f$ et $V_f$ sa concentration molaire et son volume.
@@ -57,8 +57,8 @@ tags:
 > [!activite] Activité
 > Pour nettoyer un sol qu'on a carrelé, on doit préparer une solution à partir d'un décapant pour ciment du commerce.
 >
-> ![[spado.jpeg]]
-> ![[spado.png]]
+> ![[spado.jpeg|200]]
+> ![[spado.png|400]]
 >
 > 1. Déterminer le pH de la solution commerciale.
 > 2. Décrire le protocole et nommer le matériel nécessaire à la préparation de 200 mL d'acide dilué.
@@ -85,7 +85,7 @@ Ce saut de pH est atteint quand tout l'acide $AH$ est consommé par la base $B$.
 À l'équivalence, les réactifs A et B ont été introduits dans les proportions stœchiométriques, on peut donc écrire la relation suivante :
 $$C_A \times V_A = C_B \times V_{B(eq)}$$
 
-![[dosage-ph.png]]
+![[dosage-ph.png|600]]
 
 Déterminer le rôle de chaque élément de ce dispositif expérimental.
 
@@ -96,7 +96,7 @@ Déterminer le rôle de chaque élément de ce dispositif expérimental.
 > 3. Comment va varier le pH à l'intérieur de la solution contenue dans le bécher au cours de l'expérience ?
 > 4. À la fin de l'expérience, on obtient le graphique suivant :
 >
-> ![[dosage-acide.png]]
+> ![[dosage-acide.png|500]]
 >
 >    Déterminer $V_{eq}$, le volume d'équivalence.
 > 5. À l'équivalence, on sait que $C_A \times V_A = C_B \times V_{B(eq)}$. Entourer dans cette équation les éléments connus (vert) et inconnus (rouge).
@@ -112,7 +112,7 @@ Déterminer le rôle de chaque élément de ce dispositif expérimental.
 >
 > Ce produit commercial étant trop concentré, il est nécessaire de le diluer.
 >
-> ![[desktop.jpeg.jpg]]
+> ![[desktop.jpeg.jpg|300]]
 >
 > **Problématique :** le titre massique de la solution de DESTOP est-il exact ?
 >
@@ -154,7 +154,7 @@ Déterminer le rôle de chaque élément de ce dispositif expérimental.
 > [!travail] Travail
 > Un produit anticalcaire est un produit d'entretien à base d'acide chlorhydrique.
 >
-> ![[antikal.jpg]]
+> ![[antikal.jpg|300]]
 >
 > **Problématique :** nous désirons déterminer la concentration en acide de ce produit.
 >

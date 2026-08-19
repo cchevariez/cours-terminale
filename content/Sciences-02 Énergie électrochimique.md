@@ -9,7 +9,7 @@ tags:
 > [!activite] Activité — Comprendre les indications sur une batterie
 > Voici la description de la batterie pour vélo « PowerTube Vertical BOSCH ».
 >
-> ![[battvelo.jpg]]
+> ![[battvelo.jpg|300]]
 >
 > Les caractéristiques :
 > - Type de montage : dans le cadre
@@ -159,7 +159,7 @@ Une réaction d'oxydoréduction est une réaction entre deux couples. Un couple 
 > 3. Les ions cuivre (II) ($Cu^{2+}$) et le métal fer ($Fe$) constituent un couple oxydant/réducteur.
 
 > [!exercice] Exercice 2 — Classification électrochimique
-> ![[miniclass.png]]
+> ![[miniclass.png|300]]
 >
 > 1. Quels sont les couples redox présents dans l'extrait de la classification électrochimique ci-contre ?
 > 2. Parmi ces couples, quel est l'oxydant le plus fort ? Le réducteur le plus fort ?
@@ -170,7 +170,7 @@ Une réaction d'oxydoréduction est une réaction entre deux couples. Un couple 
 >
 > 1. Légender le schéma de l'expérience décrite. Vous rajouterez les fils du multimètre permettant à ce dernier de mesurer la tension de la pile.
 >
-> ![[daniell1.png]]
+> ![[daniell1.png|400]]
 >
 > 2. Dans cette pile, identifier l'anode et la cathode (justifier votre réponse).
 > 3. Quelle réaction chimique va se produire à la cathode ?
