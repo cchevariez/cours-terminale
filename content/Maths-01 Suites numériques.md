@@ -95,7 +95,7 @@ tags:
 > Dans une suite géométrique, on passe d'un terme au suivant en multipliant toujours par le même nombre $q$ que l'on appelle raison.
 >
 > ![[schemageom.png|400]]
-
+ 
 > [!propriete] Propriété
 > Pour une suite géométrique $(u_n)$ de premier terme $u_1$ et de raison $q$ on a :
 > $$u_n = u_1 \times q^{(n-1)}$$
